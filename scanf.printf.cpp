@@ -10,7 +10,7 @@ c++...cin, cout
 int main(void)
 {
     int x, y;
-    scanf("%d %d", &x, &y); //整数値x, yに入力.
+    scanf("%d %d", &x, &y); //整数値x, yに入力.(関数に渡す値は参照.コピーされるとmain内で反映されない.)
 
     printf("%d", x + y); //整数値xとyを加えた結果を表示.
     
