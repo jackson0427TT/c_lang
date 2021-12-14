@@ -13,6 +13,7 @@ int main(void) {
 
     //計算.intとdoubleではint→doubleの型変換が起こる.
     double ans = D / 100;
+    //他にもans = (int)D / (double)100でも可能.(キャスト)
 
     //出力.精度指定は.(数字).
     printf("%.10f", ans);
